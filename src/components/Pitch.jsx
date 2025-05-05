@@ -8,7 +8,7 @@ const Pitch = () => {
   const moveBall = () => {
     if (pitchRef.current) {
       const container = pitchRef.current.getBoundingClientRect();
-      const ballSize = 20; // w-5 = 20px
+      const ballSize = 20; 
       const maxLeft = container.width - ballSize;
       const maxTop = container.height - ballSize;
 
