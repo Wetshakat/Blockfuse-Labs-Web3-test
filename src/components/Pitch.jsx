@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import pitch from '../assets/images/pitch.png';
+import pitch from '../assets/pitch.png';
 
 const Pitch = () => {
   const pitchRef = useRef(null);
