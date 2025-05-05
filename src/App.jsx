@@ -1,10 +1,10 @@
 import React from 'react'
-import Home from './pages/Home'
+import GameDashboard from './pages/GameDashboard'
 
 const App = () => {
   return (
     <div>
-   <Home/>
+   <GameDashboard/>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const MatchTimer = () => {
   const [elapsedTime, setElapsedTime] = useState(0); 
+
   useEffect(() => {
     const timer = setInterval(() => {
       setElapsedTime(prev => {
@@ -23,7 +24,7 @@ const MatchTimer = () => {
   };
 
   return (
-    <div className="text-4xl font-bold text-center text-white mt-10">
+    <div className="text-xl sm:text-2xl md:text-4xl font-bold text-center text-green-600 m0 sm:mt-20">
       First Half: {formatTime(elapsedTime)}
     </div>
   );
